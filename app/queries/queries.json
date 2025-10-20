@@ -1,0 +1,10 @@
+{
+    "employee_hires_by_year": {
+        "sql": "SELECT * FROM employees WHERE TO_CHAR(hire_date, 'YYYY') = :year",
+        "keywords": ["employee", "hires", "hired"]
+    },
+    "sales_in_region": {
+        "sql": "SELECT * FROM sales WHERE region = :region",
+        "keywords": ["sales", "region"]
+    }
+}
